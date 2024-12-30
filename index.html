@@ -12,8 +12,6 @@
     <style>
         .site-color {
             color: #3ccf91;
-            font-weight: 600;
-            font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0416666666666667));
         }
 
         .color-white {
@@ -38,8 +36,15 @@
             border-bottom: 0.5px solid rgb(30, 32, 41);
         }
 
-        .bg-black{
+        .bg-black {
             background-color: #000000;
+        }
+
+        .circlar-image {
+            background-color: grey;
+            height: 350px;
+            width: 350px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -61,8 +66,8 @@
             <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasNavbar2"
                 aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label"><span
-                        class="color-grey">{ </span>Anusha G<span class="color-grey"> }</span></span></h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label"><span class="color-grey">{ </span>Anusha
+                        G<span class="color-grey"> }</span></span></h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -84,9 +89,10 @@
 
     <div class="p-5 mb-4 rounded-3 mt-5">
         <div class="container py-5">
-            <p class="mb-0 site-color">Hey there!, I'm-</p>
+            <p class="mb-0 site-color" style="font-weight: 600; font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0416666666666667));">Hey there!, I'm-</p>
             <h1 class="display-1 fw-bold color-white letter-spacing-custom">Anusha G.</h1>
-            <p class="display-6 fw-bold color-white col-md-9"><span class="color-grey">An Aspiring </span>Machine Learning Engineer.<br><span class="color-grey"> A
+            <p class="display-6 fw-bold color-white col-md-9"><span class="color-grey">An Aspiring </span>Machine
+                Learning Engineer.<br><span class="color-grey"> A
                     curious mind passionate about AI and data-driven systems.</span></p>
             <!-- <p class="col-md-8 fs-4 color-grey">I am an aspiring Machine Learning Engineer eager to transform raw data into
                 actionable insights. With a strong foundation in AI, I am focused on crafting predictive models and
@@ -98,6 +104,30 @@
             </div>
         </div>
     </div>
+    <div class="p-5 mb-4 rounded-3 mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-8 col-md-8">
+                    <h2 class="color-white mb-4 fw-bold">⚡ About Me</h2>
+                    <p class="color-grey fs-5">Hey! I'm Anusha G, I've been fascinated by data and technology, and my
+                        interest in it has only grown over time.</p>
+                    <p class="color-grey fs-5">I started exploring <span class="site-color">data visualization and analytics</span>, I learnt programming to
+                        dive deeper into <span class="site-color">machine learning</span>. Fast forward to today, I work with various <span class="site-color">AI tools and
+                        libraries</span>, and I am looking forward to contribut to predictive models for real-world projects.
+                        I'm passionate about building intelligent systems, solving data challenges, and currently
+                        focused on <span class="site-color">AI</span> research, <span class="site-color">deep learning</span>, and <span class="site-color">natural language processing</span>.</p>
+                    <p class="color-grey fs-5">When I'm not coding, I enjoy reading about AI breakthroughs, experimenting
+                        with new datasets, or if I need a break, playing badminton with friends.</p>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="circlar-image">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
