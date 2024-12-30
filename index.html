@@ -33,8 +33,13 @@
             letter-spacing: -1.8px;
             font-size: calc(5rem + ((1vw - 7.68px) * 5.555555555555555));
         }
-        .border-bottom-custom{
+
+        .border-bottom-custom {
             border-bottom: 0.5px solid rgb(30, 32, 41);
+        }
+
+        .bg-black{
+            background-color: #000000;
         }
     </style>
 </head>
@@ -45,21 +50,32 @@
     <!-- https://abdulrahman.id/ -->
     <nav class="navbar navbar-expand-lg fixed-top custom-nav" aria-label="Main navigation" data-bs-theme="dark">
         <div class="container border-bottom-custom pb-md-3">
-            <a class="navbar-brand " title="Anusha G" href="/"><span class="full-name fw-bold fs-3"><span class="color-grey">{ </span>Anusha G<span class="color-grey"> }</span></span></a>
+            <a class="navbar-brand " title="Anusha G" href="/"><span class="full-name fw-bold fs-3"><span
+                        class="color-grey">{ </span>Anusha G<span class="color-grey"> }</span></span></a>
 
-            <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse offcanvas-collapse" id="navbarNav">
-                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5">
-                    <li class="nav-item"><a class="nav-link active" title="Home" href="/#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link " title="About" href="/#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link " title="Resume" href="/#resume">Resume</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link " title="Projects" href="/#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link " title="Contact" href="/#contact">Contact</a></li>
-                </ul>
+
+            <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label"><span
+                        class="color-grey">{ </span>Anusha G<span class="color-grey"> }</span></span></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5">
+                        <li class="nav-item"><a class="nav-link active" title="Home" href="/#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " title="About" href="/#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link " title="Resume" href="/#resume">Resume</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link " title="Projects" href="/#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link " title="Contact" href="/#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
