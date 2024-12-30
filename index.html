@@ -15,15 +15,23 @@
             font-weight: 600;
             font-size: calc(1.5rem + ((1vw - 7.68px) * 1.0416666666666667));
         }
-        .color-white{
+
+        .color-white {
             color: #ffffff;
         }
-        .color-grey{
-           color: #8F9094; 
+
+        .color-grey {
+            color: #8F9094;
         }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
             background-color: #000000;
+        }
+
+        .letter-spacing-custom {
+            letter-spacing: -1.8px;
+            font-size: calc(5rem + ((1vw - 7.68px) * 5.555555555555555));
         }
     </style>
 </head>
@@ -55,15 +63,16 @@
 
     <!-- END OF NAVBAR -->
 
-    <div class="p-5 mb-4 rounded-3">
+    <div class="p-5 mb-4 rounded-3 mt-5">
         <div class="container py-5">
             <p class="mb-0 site-color">Hey there!, I'm-</p>
-            <h1 class="display-1 fw-bold color-white">Anusha G.</h1>
-            <p class="display-6 fw-bold color-grey">An Aspring <span class="color-white">Machine Learning Engineer</span></p>
-            <p class="col-md-8 fs-4 color-grey">I am an aspiring Machine Learning Engineer eager to transform raw data into
+            <h1 class="display-1 fw-bold color-white letter-spacing-custom">Anusha G.</h1>
+            <p class="display-6 fw-bold color-white col-md-9">Machine Learning Engineer.<span class="color-grey"> A
+                    curious mind passionate about AI and data-driven systems.</span></p>
+            <!-- <p class="col-md-8 fs-4 color-grey">I am an aspiring Machine Learning Engineer eager to transform raw data into
                 actionable insights. With a strong foundation in AI, I am focused on crafting predictive models and
-                algorithms to drive smarter decisions.</p>
-            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                algorithms to drive smarter decisions.</p> -->
+            <div class="btn-group mt-5" role="group" aria-label="Basic outlined example">
                 <button type="button" class="btn btn-dark btn-outline-light">LinkedIn</button>
                 <button type="button" class="btn btn-dark btn-outline-light">Resume</button>
                 <button type="button" class="btn btn-dark btn-outline-light">My Works</button>
